@@ -1,0 +1,98 @@
+/*Last Updated Mar 1, 2017*/
+
+body
+{
+font-family: Garamond, serif;
+font-size: 18px;
+line-height: 20px;
+background-image: url("images/DSC_0224.png");
+background-size: 1500px 1000px;
+background-repeat: repeat-x;
+}
+
+#wrapper
+{
+background-color: #008000;
+margin-left: auto;
+margin-right: auto;
+width: 1050px;
+height: 800px;
+}
+
+header
+{
+line-height: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 3px solid #006400
+}
+
+nav
+{
+font-size: 19px;
+float: right;
+width: 200px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 49em;
+margin-left: auto;
+line-height: 40px;
+position: absolute;
+}
+
+article
+{
+width: 850px;
+margin-left: 10px;
+line-height: 30px;
+float: left;
+position: absolute;
+padding-left: 20px;
+}
+
+footer
+{
+background-color: #006400;
+font-size: 15px;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+position: absolute;
+top: 800px;
+width: 1050px;
+}
+
+img.mountain
+{
+padding-top: 20px;
+position: relative;
+display: block;
+}
+
+.alignright
+{
+padding-top: 20px;
+padding-left: 20px;
+position: relative;
+float: right;
+height: 300px;
+width: 500px;
+display: block;
+}
+
+table, th, td
+ { 
+ border: 1px solid black;
+ background-color: white;
+ }
+
+a
+{
+color: white;
+}
+
+form span
+{
+float: left;
+width: 200px;
+}

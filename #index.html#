@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Collin Padgett" />
+		<meta name="description" content="A student website for Great Smoky Mountains National Park" />
+		<meta name="keywords" content="mountains, camping, hiking, waterfalls, north carolina, tennessee" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Great Smoky Mountains National Park</title>
+		<script>
+			document.createElement("header");
+			document.createElement("footer");
+			document.createElement("nav");
+			document.createElement("article");
+			document.createElement("aside");
+		</script>
+		<style>
+		header, footer, nav, article, aside
+		{
+		display: block;
+		}
+		</style>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+	
+	<body>
+		<!--Last Updated Feb 22, 2017-->
+		<div id="wrapper">
+		
+			<header>
+				<h1 style="text-align: center;">Great Smoky Mountains <br />
+				National Park</h1>
+			</header>
+			
+			<nav>
+				<a href="index.html">Home</a>
+				<br />
+				<a href="attractions.html">Things to Do</a>
+				<br />
+				<a href="about.html">About</a>
+				<br />
+				<a href="reservations.html">Reserve</a>
+			</nav>
+		
+			<article>
+				<img src="images/mountain.jpg" alt="Mountain Picture" height="300" width="500" class="mountain" />
+				
+				<h2>A Lively Utopia</h2>
+			
+				<p>
+					Experience life how it is supposed to be at Great Smoky Mountains National Park. Along the Tennessee and North Carolina border, with striving plant and animal life, glorious waterfalls, and amazing mountain peaks, it has become the most visited national park in the United States.
+				</p>
+			</article>
+		
+			<footer>
+				<a href="index.html">Home</a>
+				|
+				<a href="attractions.html">Things to Do</a>
+				|
+				<a href="about.html">About</a>
+				|
+				<a href="reservations.html">Reserve</a>
+			</footer>
+		
+		</div>
+		
+	</body>
+
+</html>
